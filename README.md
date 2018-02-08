@@ -10,3 +10,5 @@ Discord bot which unfurls arXiv links.
 ```
 node arxiv-bot.js
 ```
+
+_Partially derived from https://github.com/rshin/arxiv-slack-bot_
