@@ -9,7 +9,7 @@ logger.add(logger.transports.Console, {
 logger.level = 'debug';
 
 const client = new AkairoClient({
-    ownerID: '154539912253800449',
+    ownerID: '<your_discord_hidden_id>',
     allowMention: true,
     prefix: '!',
     commandDirectory: './commands/',
