@@ -1,0 +1,30 @@
+{
+  "name": "arxiv-discord-bot",
+  "version": "1.0.0",
+  "description": "Unfurls arXiv links on Discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmehemant123/arxiv-discord-bot.git"
+  },
+  "author": "hemanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsmehemant123/arxiv-discord-bot/issues"
+  },
+  "homepage": "https://github.com/itsmehemant123/arxiv-discord-bot#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "discord-akairo": "^7.5.4",
+    "discord.js": "^11.3.0",
+    "node-rest-client": "^3.1.0",
+    "node-yaml": "^3.1.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "winston": "^2.4.0",
+    "xml2js": "^0.4.19"
+  }
+}
