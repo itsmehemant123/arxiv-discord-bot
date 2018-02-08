@@ -57,7 +57,7 @@ class ArXivUnfurlCommand extends Command {
                     entry.author.map(function (a) { return a.name[0]; }) :
                     '{No authors}',
                 categories: entry.category ? entry.category.map(c => c.$.term) : [],
-                updated_time: Date.parse(entry.updated) / 1000,
+                updated_time: Date.parse(entry.updated),
             };
         });
     }
@@ -78,7 +78,7 @@ class ArXivUnfurlCommand extends Command {
             footer: {
                 text: arxivData.categories.join(', '),
             },
-            timestamp: new Date(arxivData.updated_time * 1000).toISOString(),
+            timestamp: new Date(arxivData.updated_time).toISOString(),
             color: 0xcc3333,
         };
     }
